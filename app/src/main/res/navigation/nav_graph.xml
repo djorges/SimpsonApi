@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/characterFragment">
+
+    <fragment
+        android:id="@+id/characterFragment"
+        android:name="com.example.simpsonapi.presentation.ui.CharacterFragment"
+        android:label="@string/character_fragment_label"
+        tools:layout="@layout/fragment_character">
+
+        <action
+            android:id="@+id/action_characterFragment_to_bottomSheetDialog"
+            app:destination="@id/bottomSheetDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheetDialog"
+        android:name="com.example.simpsonapi.presentation.ui.BottomSheetDialog"
+        android:label="BottomSheetDialog" >
+        <argument
+            android:name="quote"
+            app:argType="string"/>
+        <argument
+            android:name="character"
+            app:argType="string"/>
+    </dialog>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.simpsonapi.presentation.ui.SettingsFragment"
+        android:label="@string/setting_fragment_label" >
+        <action
+            android:id="@+id/action_settingsFragment_to_bottomSheetDialog"
+            app:destination="@id/bottomSheetDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/quoteFragment"
+        android:name="com.example.simpsonapi.presentation.ui.QuoteFragment"
+        android:label="@string/quote_fragment_label"
+        tools:layout="@layout/fragment_quote" />
+</navigation>
