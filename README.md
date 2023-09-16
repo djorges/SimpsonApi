@@ -1,10 +1,12 @@
 # SimpsonsApi
 
 ### Recursos
-![characters list](https://github.com/djorges/SimpsonApi/blob/master/app/src/main/res/drawable/characters.png)
-![drawer](https://github.com/djorges/SimpsonApi/blob/master/app/src/main/res/drawable/drawer.png)
-![saved quotes](https://github.com/djorges/SimpsonApi/blob/master/app/src/main/res/drawable/saved_quotes.png)
-![actions](https://github.com/djorges/SimpsonApi/blob/master/app/src/main/res/drawable/actions.png)
+<p align="center">
+<img src="https://github.com/djorges/SimpsonApi/blob/master/app/src/main/res/drawable/characters.png" alt="characters list" width="300" height="800"/>
+<img src="https://github.com/djorges/SimpsonApi/blob/master/app/src/main/res/drawable/drawer.png" alt="drawer" width="300" height="800"/>
+<img src="https://github.com/djorges/SimpsonApi/blob/master/app/src/main/res/drawable/saved_quotes.png" alt="saved_quotes" width="300" height="800"/>
+<img src="https://github.com/djorges/SimpsonApi/blob/master/app/src/main/res/drawable/actions.png" alt="actions" width="300" height="800"/>
+</p>
 
 ### Ramas
 * master
